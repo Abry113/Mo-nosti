@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Výběr Scénářů</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Vyberte preferovaný scénář</h1>
+        <p>Vyberte scénář, který si přejete trénovat.</p>
+        <form>
+            <label for="scenarios">Scénáře:</label>
+            <select id="scenarios" name="scenarios" required>
+                <option value="" disabled selected>-- Vyberte scénář --</option>
+                <option value="nocni-rizeni">Noční řízení</option>
+                <option value="dobrdzovani">Trénink dobržďování</option>
+                <option value="dalnice">Řízení na dálnici</option>
+                <option value="mesto">Řízení ve městě</option>
+            </select>
+            <button type="submit">Odeslat</button>
+        </form>
+    </div>
+</body>
+</html>
